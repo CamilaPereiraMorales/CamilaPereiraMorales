@@ -7,3 +7,45 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+#NombreTitulo {
+    text-align: center;
+}
+
+.NombreTitulo {
+    background-image: url(../../assets/img/fondo-de-acuarela-en-colores-pastel.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+h1 {
+    margin-top: 3em;
+}
+
+.page-footer {
+    margin-top: 10em;
+}
+
+#fotoPerfil {
+    width: 7em;
+    ;
+    height: 7em;
+    ;
+    position: relative;
+    margin-top: -7.5em;
+    ;
+}
+
+#BtnProjects {
+    background-color: #b2ebf2 !important;
+    color: black;
+    margin-right: -5em !important;
+    margin-left: 2em;
+}
+
+#BtnAboutMe {
+    background-color: #b2ebf2 !important;
+    color: black;
+    margin-left: 5em;
+}
