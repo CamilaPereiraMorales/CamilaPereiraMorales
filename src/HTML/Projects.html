@@ -10,66 +10,94 @@
     <link rel="stylesheet" href="../CSS/Projects.css">
     <link rel="stylesheet" href="../../assets/lib/Btn/btn.css">
     <link rel="shortcut icon" href="#!">
-    <title>Document</title>
+    <title>Portafolio Camila Pereira</title>
 </head>
 
 <body>
     <section>
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <center> <button class="snip0040 hover blue " id="BtnAboutMe" onclick="redirectToAboutMe()"><span>Acerca de Mí</span><i class="ion-android-arrow-forward"></i></button>
+            <div class="row" id="botonesRebeldes">
+                <div id="botones" class="col">
+                    <button class="snip0040 hover blue " id="BtnAboutMe" onclick="redirectToAboutMe()"><span>Acerca de Mí</span><i class="ion-android-arrow-forward"></i></button>
                 </div>
                 <div class="col">
-                    <button class="snip0040 hover blue " id="BtnProjects" onclick="redirectToIndex()"><span>Inicio</span><i class="ion-android-arrow-forward"></i></button></center>
+                    <button class="snip0040 hover blue " id="BtnProjects" onclick="redirectToIndex()"><span>Inicio</span><i class="ion-android-arrow-forward"></i></button>
                 </div>
             </div>
         </div>
     </section>
-    <section class="NombreTitulo ">
+    <section>
         <div class="container " id="NombreTitulo">
-            <figure class="snip1580"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample106.jpg" alt="profile-sample2" />
-                <figcaption>
-                    <h3>Giles Posture</h3>
-                    <h5>UX Design</h5>
-                </figcaption>
-                <a href="#"></a>
-            </figure>
-            <figure class="snip1580 hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample116.jpg" alt="profile-sample7" />
-                <figcaption>
-                    <h3>Wisteria Ravenclaw</h3>
-                    <h5>Sound &amp; Vision</h5>
-                </figcaption>
-                <a href="#"></a>
-            </figure>
-            <figure class="snip1580"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample117.jpg" alt="profile-sample6" />
-                <figcaption>
-                    <h3>Gunther Beard</h3>
-                    <h5>Web Development</h5>
-                </figcaption>
-                <a href="#"></a>
-            </figure>
+            <div class="row" id="rowProyectos">
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../../assets/img/Translab.jpeg">
 
-        </div>
-
-
-        <footer class="page-footer #b2ebf2 cyan lighten-4">
-            <div class="container" id="footerbox">
-                <div class="row">
-                    <div class="col l6 s12">
-                        <h5 class="black-text">Contáctame!</h5>
-                        <li><a class="black-text text-lighten-3" href="mailto:camipereira2111@gmail.com?subject=Email%20Subject">Email : camipereira2111@gmail.com</a></li>
-                        <li>
-                            <a class="black-text text-lighten-3" href="#!"></a>
-                        </li>
-
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Translab</span>
+                            <p>Proyecto realizado en 4 dias, se consume la Api de Bip, para saber saldo segun numero de tarjeta de usuario, descuenta valor de viaje para manejo de saldo, segun horario escogido.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://camilapereiramorales.github.io/translab2.0/assets/html/inicio.html">Demo</a>
+                            <a href="https://github.com/CamilaPereiraMorales/translab2.0">code</a>
+                        </div>
                     </div>
-                    <div id="cajaFotoPerfil" class="col 16 s12">
-                        <img id="fotoPerfil" class="right" src="../../assets/img/fotoperfil" alt="" sizes="" srcset="">
+                </div>
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../../assets/img/Holo.jpeg">
+
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Holo</span>
+                            <p>Proyecto Registro de Visitantes "Holo" conectado en tiempo real a cloud Firestore de Firebase, donde se registra visitas </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://milelym.github.io/scl-2018-01-ProyectoFinalCore/public/splash.html">Demo</a>
+                            <a href="https://github.com/CamilaPereiraMorales/scl-2018-01-ProyectoFinalCore">code</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </footer>
+
+            <div class="row" id="rowProyectos">
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img id="fotoHorizontal" src="../../assets/img/LPS.jpeg">
+
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">LittlePetSociety</span>
+                            <p>Little Pet Society, proyecto red social orientada a usuarios PetLovers, implementada en React con autentificacion de usuarios usando Firebase Authentication</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://camilapereiramorales.github.io/ReactSocialNetwork/">Demo</a>
+                            <a href="https://github.com/CamilaPereiraMorales/ReactSocialNetwork">code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img id="fotoHorizontal" src="../../assets/img/BookMe.jpeg">
+
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">BookMe</span>
+                            <p>Proyecto Registro de Visitantes "Holo" conectado en tiempo real a cloud Firestore de Firebase, donde se registra visitas </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://bookme-78399.firebaseapp.com/">Demo</a>
+                            <a href="https://github.com/CamilaPereiraMorales/bookMe">code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
