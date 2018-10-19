@@ -2,24 +2,15 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    width: 100%;
+    background-image: url(../../assets/img/fondo-de-acuarela-en-colores-pastel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 main {
     flex: 1 0 auto;
-}
-
-#BtnProjects {
-    background-color: #b2ebf2 !important;
-    color: black;
-}
-
-#BtnAboutMe {
-    background-color: #b2ebf2 !important;
-    color: black;
-}
-
-body {
-    text-align: center;
 }
 
 .card {
@@ -39,6 +30,36 @@ body {
     border: none;
 }
 
-#botonesRebeldes {
-    align-content: center;
+#BtnProjects {
+    background-color: #b2ebf2 !important;
+    color: black;
+    margin-right: -5em !important;
+    margin-left: 2em;
+}
+
+#BtnAboutMe {
+    background-color: #b2ebf2 !important;
+    color: black;
+    margin-left: 5em;
+}
+
+.page-footer {
+    margin-top: 10em;
+    width: 100%
+}
+
+#fotoPerfil {
+    width: 7em;
+    ;
+    height: 7em;
+    ;
+    position: relative;
+    margin-top: -7.5em;
+    ;
+}
+
+.NombreTitulo {
+    margin-top: 8em;
+    width: 100%;
+    text-align: center;
 }

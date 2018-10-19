@@ -16,11 +16,145 @@
 <body>
     <section>
         <div class="container">
-            <div class="row" id="botonesRebeldes">
-                <div id="botones" class="col">
-                    <button class="snip0040 hover blue " id="BtnAboutMe" onclick="redirectToAboutMe()"><span>Acerca de Mí</span><i class="ion-android-arrow-forward"></i></button>
+            <div class="row">
+                <div class="col s6">
+                    <button class="snip0040 hover blue left" id="BtnAboutMe" onclick="redirectToIndex()"><span>Inicio</span><i class="ion-android-arrow-forward" ></i></button>
                 </div>
-                <div class="col">
+                <div class="col s6">
+                    <button class="snip0040 hover blue" id="BtnProjects" onclick="redirectToAboutMe()"><span>Acerca de Mi</span><i class="ion-android-arrow-forward"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="NombreTitulo">
+        <div class="container">
+            <div id="ContenedorDeTarjetas">
+                <div class="row" id="rowProyectos">
+                    <div class="tarjeta col s6 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../assets/img/Translab.jpeg">
+
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Translab</span>
+                                <p>Proyecto realizado en 4 dias, se consume la Api de Bip, para saber saldo segun numero de tarjeta de usuario, descuenta valor de viaje para manejo de saldo, segun horario escogido.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://camilapereiramorales.github.io/translab2.0/assets/html/inicio.html">Demo</a>
+                                <a href="https://github.com/CamilaPereiraMorales/translab2.0">code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta col s6 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../assets/img/Holo.jpeg">
+
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Holo</span>
+                                <p>Proyecto Registro de Visitantes "Holo" conectado en tiempo real a cloud Firestore de Firebase, donde se registra visitas </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://milelym.github.io/scl-2018-01-ProyectoFinalCore/public/splash.html">Demo</a>
+                                <a href="https://github.com/CamilaPereiraMorales/scl-2018-01-ProyectoFinalCore">code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" id="rowProyectos">
+                    <div class="tarjeta col s6 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img id="fotoHorizontal" src="../../assets/img/LPS.jpeg">
+
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">LittlePetSociety</span>
+                                <p>Little Pet Society, proyecto red social orientada a usuarios PetLovers, implementada en React con autentificacion de usuarios usando Firebase Authentication</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://camilapereiramorales.github.io/ReactSocialNetwork/">Demo</a>
+                                <a href="https://github.com/CamilaPereiraMorales/ReactSocialNetwork">code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tarjeta col s6 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img id="fotoHorizontal" src="../../assets/img/BookMe.jpeg">
+
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">BookMe</span>
+                                <p>Proyecto Registro de Visitantes "Holo" conectado en tiempo real a cloud Firestore de Firebase, donde se registran visitas </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://bookme-78399.firebaseapp.com/">Demo</a>
+                                <a href="https://github.com/CamilaPereiraMorales/bookMe">code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer #b2ebf2 cyan lighten-4">
+        <div class="container" id="footerbox">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="black-text">Contáctame!</h5>
+                    <li><a class="black-text text-lighten-3" href="mailto:camipereira2111@gmail.com?subject=Email%20Subject">Email : camipereira2111@gmail.com</a></li>
+                    <li>
+                        <a class="black-text text-lighten-3" href="#!"></a>
+                    </li>
+
+                </div>
+                <div id="cajaFotoPerfil" class="col 16 s12">
+                    <img id="fotoPerfil" class="right circle" src="../../assets/img/Camili.jpeg" alt="" sizes="" srcset="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="../JS/Projects.js"></script>
+    <script src="../../assets/lib/Btn/btn.js"></script>
+</body>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/Projects.css">
+    <link rel="stylesheet" href="../../assets/lib/Btn/btn.css">
+    <link rel="shortcut icon" href="#!">
+    <title>Portafolio Camila Pereira</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <button class="snip0040 hover blue right" id="BtnAboutMe" onclick="redirectToAboutMe()"><span>Acerca de Mí</span><i class="ion-android-arrow-forward" ></i></button>
+                </div>
+                <div class="col s6">
                     <button class="snip0040 hover blue " id="BtnProjects" onclick="redirectToIndex()"><span>Inicio</span><i class="ion-android-arrow-forward"></i></button>
                 </div>
             </div>
@@ -88,7 +222,7 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title">BookMe</span>
-                            <p>Proyecto Registro de Visitantes "Holo" conectado en tiempo real a cloud Firestore de Firebase, donde se registra visitas </p>
+                            <p>Proyecto Registro de Visitantes "Holo" conectado en tiempo real a cloud Firestore de Firebase, donde se registran visitas </p>
                         </div>
                         <div class="card-action">
                             <a href="https://bookme-78399.firebaseapp.com/">Demo</a>
@@ -99,7 +233,23 @@
             </div>
         </div>
     </section>
+    <footer class="page-footer #b2ebf2 cyan lighten-4">
+        <div class="container" id="footerbox">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="black-text">Contáctame!</h5>
+                    <li><a class="black-text text-lighten-3" href="mailto:camipereira2111@gmail.com?subject=Email%20Subject">Email : camipereira2111@gmail.com</a></li>
+                    <li>
+                        <a class="black-text text-lighten-3" href="#!"></a>
+                    </li>
 
+                </div>
+                <div id="cajaFotoPerfil" class="col 16 s12">
+                    <img id="fotoPerfil" class="right circle" src="../../assets/img/Camili.jpeg" alt="" sizes="" srcset="">
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -110,4 +260,4 @@
     <script src="../../assets/lib/Btn/btn.js"></script>
 </body>
 
-</html>
+</html> -->
