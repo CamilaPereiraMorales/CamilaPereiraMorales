@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 function redirectToIndex() {
-    location = "/src/HTML/index.html"
+    location = "../../index.html"
 }
 
 function redirectToAboutMe() {

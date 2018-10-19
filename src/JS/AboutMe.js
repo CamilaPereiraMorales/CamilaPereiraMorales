@@ -7,5 +7,5 @@ function redirectToProjects() {
 }
 
 function redirectToIndex() {
-    location = "/src/HTML/index.html"
+    location = "../../index.html"
 }
