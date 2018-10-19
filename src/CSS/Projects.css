@@ -1,7 +1,5 @@
 body {
-    display: flex;
     min-height: 100vh;
-    flex-direction: column;
     width: 100%;
     background-image: url(../../assets/img/fondo-de-acuarela-en-colores-pastel.jpg);
     background-size: cover;
@@ -9,38 +7,28 @@ body {
     background-position: center;
 }
 
-main {
-    flex: 1 0 auto;
-}
-
 .card {
     height: 15em;
     width: 15em;
-}
-
-#rowProyectos {
-    margin-bottom: 20em;
-}
-
-#rowProyectos2 {
-    margin-bottom: 20em;
-}
-
-.card-image {
-    border: none;
+    margin-left: 20%;
 }
 
 #BtnProjects {
     background-color: #b2ebf2 !important;
     color: black;
-    margin-right: -5em !important;
-    margin-left: 2em;
 }
 
-#BtnAboutMe {
+#BtnIndex {
     background-color: #b2ebf2 !important;
     color: black;
-    margin-left: 5em;
+}
+
+.BtnInterior {
+    background-color: white;
+    color: #b2ebf2;
+    border: none;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .page-footer {
@@ -50,16 +38,21 @@ main {
 
 #fotoPerfil {
     width: 7em;
-    ;
     height: 7em;
-    ;
     position: relative;
-    margin-top: -7.5em;
-    ;
+    margin-right: -2em;
 }
 
 .NombreTitulo {
     margin-top: 8em;
     width: 100%;
     text-align: center;
+}
+
+.color {
+    margin: 2%;
+}
+
+.datos {
+    margin-left: -2em;
 }
