@@ -1,10 +1,16 @@
 body {
+    display: flex;
     min-height: 100vh;
+    flex-direction: column;
     width: 100%;
     background-image: url(../../assets/img/fondo-de-acuarela-en-colores-pastel.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 .card {
@@ -13,7 +19,7 @@ body {
     margin-left: 20%;
 }
 
-#BtnProjects {
+#BtnAboutMe {
     background-color: #b2ebf2 !important;
     color: black;
 }
@@ -49,10 +55,14 @@ body {
     text-align: center;
 }
 
-.color {
-    margin: 2%;
-}
-
 .datos {
     margin-left: -2em;
+}
+
+p {
+    font-size: 13px;
+}
+
+.tituloCards {
+    font-weight: 700;
 }
