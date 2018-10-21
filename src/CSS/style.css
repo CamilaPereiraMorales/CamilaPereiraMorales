@@ -20,14 +20,18 @@ main {
 h1 {
     margin-top: 3em;
     text-align: center !important;
-    position: relative;
+}
+
+.Front {
+    margin-bottom: 5em;
+    align-content: center;
 }
 
 .page-footer {
-    position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%
+    width: 100%;
+    margin-top: -40px;
 }
 
 #fotoPerfil {
