@@ -38,7 +38,6 @@ main {
 }
 
 .page-footer {
-    margin-top: 10em;
     width: 100%
 }
 
@@ -50,7 +49,7 @@ main {
 }
 
 .NombreTitulo {
-    margin-top: 8em;
+    margin-top: 2em;
     width: 100%;
     text-align: center;
 }

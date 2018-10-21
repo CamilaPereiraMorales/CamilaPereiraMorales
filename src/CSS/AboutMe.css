@@ -24,7 +24,10 @@ main {
 }
 
 .page-footer {
-    margin-top: 10em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
 }
 
 #fotoPerfil {
@@ -42,6 +45,7 @@ main {
 #BtnIndex {
     background-color: #b2ebf2 !important;
     color: black;
+    padding-right: 3em;
 }
 
 .Habilidades {
