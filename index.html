@@ -1,72 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./src/CSS/style.css">
-    <link rel="stylesheet" href="./assets/lib/Btn/btn.css">
-    <link rel="shortcut icon" href="#!">
-    <title>Portafolio Camila Pereira</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     
+             
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imgs/5a36945d7f4d71.4377868815135263655214.png">
+    <title>Document</title>
 </head>
-
 <body>
-
-    <div class="container">
-        <div class="row">
-            <div class="left-align col l5 m5 s6 color">
-                <button class="snip0040 hover blue left-align" id="BtnProjects" onclick="redirectToProjects()"><span>Works</span><i class="ion-android-arrow-forward" ></i></button>
+    <!--Navbar-->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo right">Camili</a>
+                <ul class="left hide-on-med-and-down">
+                <li><a href="#Me">Un poco de mi</a></li>
+                <li><a href="#Proyectos">Proyectos</a></li>
+                <li class=""><a href="#Contacto">Contacto</a></li>
+                </ul>
             </div>
-            <div class="right-align col l5 m5 s6 color">
-                <button class="right-align snip0040 hover blue" id="BtnAboutMe" onclick="redirectToAboutMe()"><span>Bio</span><i class="ion-android-arrow-forward"></i></button>
-            </div>
+        </nav>
+    </div>
+    
+<!--Presentacion-->
+<div class="container center" id="Me">
+    <div class="row">
+        <div class="col 12">
+                <img class="materialboxed myPic" width="350" src="./imgs/WhatsApp Image 2019-02-22 at 10.51.15 PM.jpeg">
         </div>
     </div>
+</div>
 
-
-    <div class=" NombreTitulo container center-align" id="NombreTitulo">
-        <div class="row">
-            <div class="col l12 m12 s12 center-align">
-                <h1 class="center-align">Camila Pereira Morales </h1>
-                <h5 class="Front center-align">Front-End Developer</h5>
-            </div>
-        </div>
-    </div>
-
-
-    <footer class="page-footer #b2ebf2 cyan lighten-4">
-        <div class="container" id="footerbox">
-            <div class="row">
-                <div class="col l12 s12">
-                    <div class="datos col s9 l9">
-                        <h5 class="black-text">Contáctame!</h5>
-                        <li><a class="black-text text-lighten-3" href="mailto:camipereira2111@gmail.com?subject=Email%20Subject">camipereira2111@gmail.com</a></li>
-                        <li>
-                            <a class="black-text text-lighten-3" href="#!">+56976679597</a>
-                        </li>
-                        <li>
-                            <a href="https://i.imgur.com/bVgKd4v.png">Curriculum</a>
-                        </li>
+<!--Proyectos-->
+<div class="container" id="Proyectos">
+    <div class="row">
+        <div class="col 12">
+                <h2 class="header">Horizontal Card</h2>
+                <div class="card horizontal">
+                    <div class="card-image">
+                    <img src="https://lorempixel.com/100/190/nature/6">
                     </div>
-                    <div id="cajaFotoPerfil" class="col 12 s3">
-                        <img id="fotoPerfil" class="right circle" src="../../assets/img/Camili.jpeg" alt="" sizes="" srcset="">
+
+                    <div class="card-stacked">
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
                     </div>
                 </div>
-            </div>
         </div>
-    </footer>
+    </div>
+</div>
+
+<!--Skills-->
+
+<!--Contacto-->
+<div class="container" id="Contacto">
+    <div class="row">
+        <div class="col ">
+            <img src="./imgs/WhatsApp Image 2019-02-22 at 10.51.15 PM.jpeg">
+        </div>
+    </div>
+</div>
 
 
 
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <script src="./src/JS/app.js"></script>
-    <script src="./assets/lib/Btn/btn.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
 </body>
-
 </html>

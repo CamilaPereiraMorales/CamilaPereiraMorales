@@ -1,0 +1,15 @@
+.nav-wrapper{
+    background-color: rgb(78, 83, 88);
+    color: white;
+}
+.brand-logo{
+    margin-right: 5%;
+}
+.hide-on-med-and-down{
+    margin-left: 5%;
+}
+.myPic{
+    margin-top: 60%;
+    margin-bottom: 50%;
+
+}
