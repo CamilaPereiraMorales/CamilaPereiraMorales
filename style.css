@@ -19,5 +19,19 @@ body{
 .name{
     font-family: 'Calligraffitti', cursive;
 }
+.BookMe{
+    margin-left: 2%;
+}
+.LPS{
+    margin-left: 2%;
+}
+.Translab{
+    margin-right: 2%;
+}
+.Proyectos{
+    width: 60rem;
+    margin-bottom: 15rem;
+}
+
 /* font-family: 'Calligraffitti', cursive;
 font-family: 'Raleway', sans-serif; */
