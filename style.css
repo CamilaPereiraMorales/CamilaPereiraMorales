@@ -29,8 +29,18 @@ body{
     margin-right: 2%;
 }
 .Proyectos{
-    width: 60rem;
-    margin-bottom: 15rem;
+    width: 80%;
+    margin-bottom: 20%;
+    margin-left: 10%;
+}
+.contacto{
+    width: 80%;
+}
+.skillsImg{
+    width: 30%;
+}
+.skillsImgFirebase{
+    width: 50%;
 }
 
 /* font-family: 'Calligraffitti', cursive;

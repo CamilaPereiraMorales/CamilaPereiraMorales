@@ -7,31 +7,42 @@
      <!-- Compiled and minified CSS -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
      <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Raleway" rel="stylesheet">
-             
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">         
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./imgs/5a36945d7f4d71.4377868815135263655214.png">
     <title>Camili || Front End Developer</title>
 </head>
 <body>
     <!--Navbar-->
+   
+  
     <div class="navbar-fixed">
-        <nav>
+    <nav>
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo right name">Camili</a>
-                <ul class="left hide-on-med-and-down">
+              <a href="#!" class="brand-logo right name">Camili</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="left hide-on-med-and-down">
+                    <li><a href="#Me">Un poco de mi</a></li>
+                    <li><a href="#Proyectos">Proyectos</a></li>
+                    <li><a href="#skillsBox">Skills</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+             </ul>
+            </div>
+          </nav>
+        </div>    
+          <ul class="sidenav" id="mobile-demo">
                 <li><a href="#Me">Un poco de mi</a></li>
                 <li><a href="#Proyectos">Proyectos</a></li>
                 <li class=""><a href="#Contacto">Contacto</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+          </ul>
+                   
     
 <!--Presentacion-->
 <div class="container center" id="Me">
     <div class="row">
         <div class="col 12">
                 <img class=" myPic" width="350" src="./imgs/WhatsApp Image 2019-02-22 at 10.51.15 PM.jpeg">
+                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente reiciendis dolores consequatur, quisquam praesentium reprehenderit in pariatur earum deserunt quae cumque totam error minus quam? Vero minima beatae eum dolor!</h3>
         </div>
     </div>
 </div>
@@ -41,7 +52,7 @@
     <div class="row">
         <div class="col 12">
                 
-                <div class="card horizontal Proyectos">
+                <div class="card horizontal Proyectos center-align">
                     <div class="card-image BookMe">
                     <img src="./imgs/BookMe.jpeg">
                     </div>
@@ -128,21 +139,36 @@
 
 
 <!--Skills-->
+<div id="skillsBox">
+        <h1 class="center-align" id="skillsTitle">Skills</h1>
+    
 
-<div class="container">
-    <div class="row">
-        <div class="col s12 l3">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+        <div class="container ">
+        <div class="row">
+            <div class="col 12">
+                <img class="skillsImg" src="/imgs/HTML5_1Color_Black.svg" alt="">
+                <img class="skillsImg" src="/imgs/logo_CSS3.png" alt="">
+                <img class="skillsImg" src="/imgs/js.png" alt="">
+            </div>
+        </div>
+        <div class="row center-align">
+            <div class="col 12">
+                <img class="skillsImg" src="/imgs/React.png" alt="">
+                <img class="skillsImgFirebase" src="/imgs/firebase.png" alt="">
+            </div>
         </div>
     </div>
 </div>
+
+
+
 <!--Contacto-->
+
+
 <div class="container" id="Contacto">
     <div class="row">
         <div class="col ">
-            <img src="./imgs/WhatsApp Image 2019-02-22 at 10.51.15 PM.jpeg">
+            <img class="contacto" src="./imgs/WhatsApp Image 2019-02-22 at 10.51.15 PM.jpeg">
         </div>
     </div>
 </div>
@@ -150,8 +176,9 @@
 
 
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>            
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
     <script src="app.js"></script>
 </body>
 </html>
