@@ -11,14 +11,20 @@ body{
 .hide-on-med-and-down{
     margin-left: 5%;
 }
-.myPic{
-    margin-top: 60%;
-    margin-bottom: 50%;
-
-}
 .name{
     font-family: 'Calligraffitti', cursive;
 }
+
+@media (min-width:600px){
+.myPic{
+    margin-top: 20%;
+    
+    width: 30%;
+}
+.aboutMe{
+    display: inline;
+}
+
 .BookMe{
     margin-left: 2%;
 }
@@ -43,5 +49,60 @@ body{
     width: 50%;
 }
 
+}
+
+
+
 /* font-family: 'Calligraffitti', cursive;
 font-family: 'Raleway', sans-serif; */
+/* Mobile */
+@media (max-width: 600px) {
+    
+    .myPic{
+        margin-top: 25%;
+        margin-bottom: 25%;
+        width: 70%;
+    }
+    .aboutMe{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .header{
+        font-size: 200%;
+        font-weight: bolder;
+    }
+    .BookMe{
+        margin-left: 2%;
+    }
+    .LPS{
+        margin-left: 2%;
+    }
+    .Translab{
+        margin-right: 2%;
+    }
+    .Proyectos{
+        width: 90%;
+        margin-bottom: 20%;
+        margin-left: 10%;
+    }
+    #skillsTitle{
+        font-size: 300%;
+        margin-bottom: 15%;
+    }
+    .skillsImg{
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 15%;
+    }
+    .skillsImgReact{
+        width: 60%;
+        margin-bottom: 15%;
+    }
+    .skillsImgFirebase{
+        width: 90%;
+        margin-bottom: 15%;
+    }
+    .contacto{
+        width: 80%;
+    }
+}
