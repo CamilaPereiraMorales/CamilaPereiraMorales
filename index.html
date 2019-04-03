@@ -7,9 +7,9 @@
      <!-- Compiled and minified CSS -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
      <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Raleway" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">         
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">       
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styleMobile.css">
     <link rel="shortcut icon" href="./imgs/5a36945d7f4d71.4377868815135263655214.png">
     <title>Camili || Front End Developer</title>
 </head>
@@ -39,27 +39,29 @@
                    
     
 <!--Presentacion-->
-<div class="container center" id="Me">
-    <div class="row">
-        <div class="col 6">
-                <img class="myPic center-align" width="30%" src="./imgs/WhatsApp Image 2019-02-22 at 10.51.15 PM.jpeg">
+<div class="container center-align" id="Me">
+    <div class="row center-align">
+        <div class="col 12 center-align">
+                <img class="myPic center-align"  src="./imgs/WhatsApp Image 2019-02-22 at 10.51.15 PM.jpeg">
         </div>
         <div class="col 6 center">
-                <p class="aboutMe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente reiciendis dolores consequatur, quisquam praesentium reprehenderit in pariatur earum deserunt quae cumque totam error minus quam? Vero minima beatae eum dolor!</p>
+                <p class="aboutMe">Hola! Soy Camila, Front end Developer, autodidacta, amante de la naturaleza y la fotografia...
+                    En busqueda constante de nuevos aprendizajes, amo rodearme de personas con las cuales pueda nutrirme, aprender y a su vez enseñar y ayudar con mis fortalezas. El trabajo en equipo se me da con facilidad, mi naturaleza empatica ayudan a desempeñarme de manera optima en todo ambiente laboral.
+                    Me interesa seguir avanzando y aprendiendo de esta carrera, el mundo tech es un universo de posibilidades maravillosas a las que me veo enfrentada dia a dia.
+                    Te invito a ver mi trabajo y ponernos en contacto para alguna colaboracion </p>
         </div>
-               
-        
     </div>
 </div>
 
 <!--Proyectos-->
 <div class="container" id="Proyectos">
+    <h1 class="ProjectsTitle center-align" id="ProjectsBox">Proyectos</h1>
     <div class="row">
         <div class="col 12">
                 
                 <div class="card horizontal Proyectos center-align">
                     <div class="card-image BookMe valign-wrapper">
-                    <img src="./imgs/BookMe.jpeg">
+                    <img class="ProjectsImg" src="./imgs/BookMe.jpeg">
                     </div>
 
                     <div class="card-stacked">
@@ -68,8 +70,8 @@
                         <p>I am a very simple card. I am good at containing small bits of information.</p>
                     </div>
                     <div class="card-action center">
-                        <a href="#">Codigo</a>
-                        <a href="#">Demo</a>
+                        <a class="DeCoLink" href="#">Codigo</a>
+                        <a class="DeCoLink"href="#">Demo</a>
                     </div>
                     </div>
                 </div>
@@ -85,12 +87,12 @@
                             <p>I am a very simple card. I am good at containing small bits of information.</p>
                         </div>
                         <div class="card-action center">
-                                <a href="#">Codigo</a>
-                                <a href="#">Demo</a>
+                                <a class="DeCoLink" href="#">Codigo</a>
+                                <a class="DeCoLink" href="#">Demo</a>
                         </div>
                         </div>
                         <div class="card-image valign-wrapper ">
-                            <img src="./imgs/Holo.jpeg">
+                            <img class="ProjectsImg" src="./imgs/Holo.jpeg">
                         </div>
                     </div>
             </div>
@@ -100,7 +102,7 @@
                     
                     <div class="card horizontal Proyectos">
                         <div class="card-image LPS valign-wrapper ">
-                        <img src="./imgs/LPS.jpeg">
+                        <img class="ProjectsImg" src="./imgs/LPS.jpeg">
                         </div>
     
                         <div class="card-stacked">
@@ -109,8 +111,8 @@
                             <p>I am a very simple card. I am good at containing small bits of information.</p>
                         </div>
                         <div class="card-action center">
-                                <a href="#">Codigo</a>
-                                <a href="#">Demo</a>
+                                <a class="DeCoLink" href="#">Codigo</a>
+                                <a class="DeCoLink" href="#">Demo</a>
                         </div>
                         </div>
                     </div>
@@ -128,12 +130,12 @@
                                 <p>I am a very simple card. I am good at containing small bits of information.</p>
                             </div>
                             <div class="card-action center">
-                                    <a href="#">Codigo</a>
-                                    <a href="#">Demo</a>
+                                    <a class="DeCoLink" href="#">Codigo</a>
+                                    <a class="DeCoLink" href="#">Demo</a>
                             </div>
                             </div>
                             <div class="card-image Translab valign-wrapper ">
-                                <img src="./imgs/Translab.jpeg">
+                                <img class="ProjectsImg" src="./imgs/Translab.jpeg">
                             </div>
                         </div>
                 </div>
@@ -168,16 +170,34 @@
 
 
 <!--Contacto-->
+<h1 class="center-align" id="contactTitle">Contacto</h1>
 
-
-<div class="container" id="Contacto">
+<div class="container center-align" id="Contacto">
     <div class="row center-align">
-        <div class="col ">
-            <img class="contacto" src="./imgs/WhatsApp Image 2019-02-22 at 10.51.15 PM.jpeg">
+        <div class="col s6 m3 center-align">
+            <a href="https://imgur.com/bVgKd4v">
+                <i class="contacto far fa-file-alt large" style="color:rgb(78, 83, 88);"></i>
+                <p class="iconSubtitle">Curriculum</p>
+            </a>
+        </div>
+        <div class="col s6 m3 center-align">
+            <a href="https://github.com/CamilaPereiraMorales">
+                <i class="contacto fab fa-github large" style="color:rgb(78, 83, 88);"></i>
+                <p class="iconSubtitle">Github</p>
+            </a>
+        </div>
+        <div class="col s6 m3 center-align">
+                <i class="contacto far fa-envelope large" style="color:rgb(78, 83, 88);"></i>
+                <p class="iconSubtitle">camipereira2111@gmail.com</p>
+        </div>
+        <div class="col s6 m3 center-align">
+            <a href="www.linkedin.com/in/camila-pereira-morales">
+                <i class="contacto fab fa-linkedin large" style="color:rgb(78, 83, 88);"></i>
+                <p class="iconSubtitle">LinkedIn</p>
+            </a>
         </div>
     </div>
 </div>
-
 
 
 

@@ -4,6 +4,7 @@ body{
 .nav-wrapper{
     background-color: rgb(78, 83, 88);
     color: white;
+    font-weight: 500;
 }
 .brand-logo{
     margin-right: 5%;
@@ -13,13 +14,29 @@ body{
 }
 .name{
     font-family: 'Calligraffitti', cursive;
+    font-weight: 600;
+}
+.DeCoLink{
+    color: blue !important;
+}
+#Contacto{
+    color: black !important;
+}
+.iconSubtitle{
+    color: rgb(78, 83, 88) !important;
+    font-weight: bolder;
+    margin-bottom: 30%;
 }
 
+/* Desktop */
 @media (min-width:600px){
 .myPic{
-    margin-top: 20%;
-    
-    width: 30%;
+    margin-top: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    margin-bottom: 10%;
+    width: 40%;
 }
 .aboutMe{
     display: inline;
@@ -33,6 +50,9 @@ body{
 }
 .Translab{
     margin-right: 2%;
+}
+.ProjectsImg{
+    width: 40%;
 }
 .Proyectos{
     width: 80%;
@@ -48,6 +68,14 @@ body{
 .skillsImgFirebase{
     width: 50%;
 }
+#contactTitle{
+    margin-bottom: 10%;
+    margin-top: 15%;
+}
+#skillsTitle{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
 
 }
 
@@ -55,18 +83,43 @@ body{
 
 /* font-family: 'Calligraffitti', cursive;
 font-family: 'Raleway', sans-serif; */
+
+
 /* Mobile */
 @media (max-width: 600px) {
-    
+    #Me{
+        width: 100%;
+        
+        padding-bottom: 10%;
+    }
     .myPic{
         margin-top: 25%;
         margin-bottom: 25%;
         width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
     .aboutMe{
         width: 60%;
         margin-left: 20%;
     }
+    #ProjectsBox{
+        font-size: 300%;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        font-family: 'Raleway';
+    }
+    #Proyectos{
+        
+        width: 100%;
+        padding-top: 1%;
+    }
+    .Proyectos{
+        width: 90%;
+        margin-bottom: 20%;
+        margin-left: 5%;
+    }
+   
     .header{
         font-size: 200%;
         font-weight: bolder;
@@ -80,11 +133,7 @@ font-family: 'Raleway', sans-serif; */
     .Translab{
         margin-right: 2%;
     }
-    .Proyectos{
-        width: 90%;
-        margin-bottom: 20%;
-        margin-left: 10%;
-    }
+    
     #skillsTitle{
         font-size: 300%;
         margin-bottom: 15%;
@@ -104,5 +153,12 @@ font-family: 'Raleway', sans-serif; */
     }
     .contacto{
         width: 80%;
+    }
+    #contactTitle{
+        margin-bottom: 30%;
+        margin-top: 30%;
+        font-size: 300%;
+        margin-bottom: 15%;
+        
     }
 }
