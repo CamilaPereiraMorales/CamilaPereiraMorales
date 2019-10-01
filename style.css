@@ -1,9 +1,13 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+.section {
+    text-align:center;
+    font-size: 3em;
+  }
 .nav-wrapper{
-    background-color: rgb(78, 83, 88);
-    color: white;
+    background-color: #123C69;
+    color: #EEE2DC !important;
     font-weight: 500;
 }
 .brand-logo{
@@ -15,6 +19,30 @@ body{
 .name{
     font-family: 'Calligraffitti', cursive;
     font-weight: 600;
+    color: #EEE2DC !important;
+}
+#ProjectsBox{
+    color: #123C69;
+}
+.fp-controlArrow.fp-prev {
+    left: 15px;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #123C69 transparent transparent !important;
+}
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #123C69 !important;
+}
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #EEE2DC;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+    font-weight: 700;
 }
 .DeCoLink{
     color: blue !important;
@@ -32,10 +60,11 @@ body{
 /* Desktop */
 @media (min-width:600px){
 .myPic{
-    width: 20%;
+    width: 30%;
 }
 .aboutMe{
     font-size: 20px;
+    color: #123C69
 }
 
 .BookMe{
@@ -65,8 +94,8 @@ body{
     width: 30%;
 }
 #contactTitle{
-    margin-bottom: 10%;
-    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 .iconSubtitleMail{
     font-size: 20px;
@@ -165,7 +194,3 @@ font-family: 'Raleway', sans-serif; */
     }
 }
 
-.section {
-    text-align:center;
-    font-size: 3em;
-  }
