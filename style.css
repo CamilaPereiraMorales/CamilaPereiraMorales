@@ -54,9 +54,19 @@ nav ul a {
     margin-bottom: 30%;
     font-size: 20px;
 }
-
+.textContainer{
+    max-width: 400px;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 80px;
+    min-height: 450px;
+    background-color: #EEE2DC;
+    margin-left: 980px;
+    margin-top: -410px !important;
+    margin-bottom: 300px;
+}
 /* Desktop */
-@media (min-width:600px){
+
 .myPic{
     width: 30%;
 }
@@ -79,20 +89,7 @@ nav ul a {
     margin-left: 270px;
     margin-top: 40px;
 }
-.textContainer{
-    max-width: 400px;
-    padding-top: 100px;
-    padding-right: 20px;
-    padding-left: 80px;
-    min-height: 450px;
-    background-color: #EEE2DC;
-    margin-left: 980px;
-    /* margin-bottom: 400px !important; */
-    /* position: absolute; */
-    /* display: block; */
-    margin-top: -410px !important;
-    margin-bottom: 300px;
-}
+
 .projectTitleText{
     color: #AC3B61;
     text-align: right;
@@ -140,7 +137,7 @@ nav ul a {
     font-size: 15px;
 }
 
-}
+
 
 
 
@@ -149,7 +146,7 @@ font-family: 'Raleway', sans-serif; */
 
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (min-width: 600px) {
     #Me{
         width: 100%;
         
@@ -223,6 +220,9 @@ font-family: 'Raleway', sans-serif; */
         font-size: 300%;
         margin-bottom: 15%;
         
+    }
+    .textContainer {
+        margin-left: 740px !important;
     }
 }
 

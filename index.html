@@ -24,24 +24,24 @@
               <a href="#!" class="brand-logo right name">Camili</a>
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul class="left hide-on-med-and-down">
-                    <li><a href="#Me">Un poco de mi</a></li>
-                    <li class="navText"><a href="#Proyectos">Proyectos</a></li>
-                    <li class="navText"><a href="#skillsBox">Skills</a></li>
-                    <li class="navText"><a href="#Contacto">Contacto</a></li>
+                    <li data-menuanchor="process1" class="active"><a href="#Me">Un poco de mi</a></li>
+                    <li data-menuanchor="process2" class="navText"><a href="#Proyectos">Proyectos</a></li>
+                    <li data-menuanchor="process3" class="navText"><a href="#skillsBox">Skills</a></li>
+                    <li data-menuanchor="process4" class="navText"><a href="#Contacto">Contacto</a></li>
              </ul>
             </div>
           </nav>
         </div>    
-          <ul class="sidenav" id="mobile-demo">
-                <li><a href="#Me">Un poco de mi</a></li>
+          <!-- <ul class="sidenav" id="mobile-demo">
+                <li data-menuanchor="process1" class="active"><a href="#Me">Un poco de mi</a></li>
                 <li><a href="#Proyectos">Proyectos</a></li>
-                <li class=""><a href="#Contacto">Contacto</a></li>
-          </ul>
+                <li><a href="#Contacto">Contacto</a></li>
+          </ul> -->
                    
           <div id="fullpage">
-            <div class="section">
+            <div class="section" id="Me">
  <!--Presentacion-->
-                <div class="container" id="Me">
+                <div class="container" >
                     <div class="row">
                         <div class="col-6">
                                 <img class="myPic "  src="./imgs/IMG_20190927_091116.jpg">
@@ -61,8 +61,8 @@
 
 
 
-            <div class="section">
-                    <h1 class="ProjectsTitle center-align" id="ProjectsBox">Proyectos</h1>
+            <div class="section" id="Proyectos">
+                    <h1 class="ProjectsTitle center-align" >Proyectos</h1>
                 <div class="slide" data-anchor="slide1"> 
                    
                     <!-- <div class="card horizontal Proyectos center-align"> -->
@@ -148,13 +148,13 @@
                 <div class="slide" data-anchor="slide2"> 
                   
                         <div class="card-image BookMe valign-wrapper">
-                                <img class="ProjectsImg" src="./imgs/translab.png">
+                                <img class="ProjectsImg" src="./imgs/1.png">
                                 </div>
                                  <div class="textContainer">
                                 <div class="card-stacked">
                                         <div class="card-content">
                                             <h2 class="header projectTitleText">Dashboard</h2>
-                                            <p class="projectDescriptionText"></p>
+                                            <p class="projectDescriptionText">Herramienta de mineria de procesos, sirve para monitorear procesos empresariales y optimizarlos, según la respuesta que se obtiene del procesamiento de datos que hace el algoritmo</p>
                                         </div>
                                     </div>
                                 </div>
@@ -165,7 +165,7 @@
 
 <!--Skills-->
 
-            <div class="section">
+            <div class="section" id="skillsBox">
             <h1 class="center-align" id="skillsTitle">Skills</h1>
             <div class="row">
                     <div class="col 12">
