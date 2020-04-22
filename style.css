@@ -176,7 +176,7 @@ font-family: 'Raleway', sans-serif; */
     .aboutMe{
         width: 90%;
         margin-left: 7%;
-        font-size: 40%;
+        font-size: 34%;
     }
     #ProjectsBox{
         font-size: 300%;
@@ -278,7 +278,7 @@ font-family: 'Raleway', sans-serif; */
         padding-bottom: 10%;
     }
     .myPic{
-        margin-top: 0%;
+        margin-top: 5%;
         margin-bottom: 0%;
         width: 40%;
         margin-left: 15%;
