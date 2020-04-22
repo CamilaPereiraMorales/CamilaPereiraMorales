@@ -350,13 +350,13 @@ font-family: 'Raleway', sans-serif; */
         margin-top: -2%;
     }
     .fp-controlArrow.fp-next {
-        top: 35%;
+        top: 38%;
         right: 25px !important;
         border-width: 22.5px 0 22.5px 19px !important;
     }
     .fp-controlArrow.fp-prev {
         left: 15px;
-        top: 35%;
+        top: 38%;
         border-width: 22.5px 19px 22.5px 0 !important;
         border-color: transparent #123C69 transparent transparent !important;
     }
