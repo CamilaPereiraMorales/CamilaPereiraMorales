@@ -266,3 +266,143 @@ font-family: 'Raleway', sans-serif; */
     }
 }
 
+@media (max-width: 1000px) {
+    #Me{
+        width: 100%;
+        padding-bottom: 10%;
+    }
+    .myPic{
+        margin-top: 0%;
+        margin-bottom: 0%;
+        width: 40%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .ProjectsTitle{
+        font-size: 80%;
+        margin-top: 1% !important;
+    }
+
+
+    .fp-slides {
+        height: 70% !important;
+    }
+    .aboutMe{
+        width: 90%;
+        margin-left: 7%;
+        font-size: 40%;
+    }
+    .textContainer{
+        background-color: transparent;
+        max-width: 90%;
+        padding-top: 46%;
+        padding-right: 0%;
+        padding-left: 0%; 
+        min-height: 19%; 
+        margin-left: 6%;
+        margin-bottom: 30%;
+    }
+    #ProjectsBox{
+        font-size: 300%;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        font-family: 'Raleway';
+    }
+    #Proyectos{
+        width: 100%;
+        padding-top: 1%;
+    }
+    .Proyectos{
+        width: 90%;
+        margin-bottom: 20%;
+        margin-left: 5%;
+    }
+   
+    .header{
+        font-size: 70%;
+        font-weight: bolder;
+    }
+    .CodeLink{
+        font-size: 50%;
+        margin-right: 10%;
+    }
+    .DemoLink{
+        font-size: 50%;
+    }
+    .projectTitleText{
+        color: #AC3B61;
+        text-align: center;
+        margin-top: -45%;
+        font-weight: 500;
+    }
+    .projectDescriptionText{
+        font-size: 35%;
+        width: 90%;
+        margin-left: 20px;
+        text-align: center;
+        margin-bottom: -3%;
+        margin-top: -2%;
+    }
+    .fp-controlArrow.fp-next {
+        top: 35%;
+        right: 25px !important;
+        border-width: 22.5px 0 22.5px 19px !important;
+    }
+    .fp-controlArrow.fp-prev {
+        left: 15px;
+        top: 35%;
+        border-width: 22.5px 19px 22.5px 0 !important;
+        border-color: transparent #123C69 transparent transparent !important;
+    }
+    .fp-tableCell{
+        height: 0px !important;
+    }
+    .BookMe{
+        margin-left: 2%;
+    }
+    .ProjectsImg{
+        width: 100%;
+        margin-left: -1%;
+        margin-top: -1%;
+    }
+    .LPS{
+        margin-left: 2%;
+    }
+    .Translab{
+        margin-right: 2%;
+    }
+    
+    #skillsTitle{
+        font-size: 100%;
+        margin-bottom: 15%;
+    }
+    .skillsImg{
+        width: 20%;
+        margin-left: 10%;
+        margin-bottom: 9%;
+    }
+    .skillsImgReact{
+        width: 25%;
+        margin-bottom: 5%;
+        margin-left: 2%;
+    }
+    .skillsImgFirebase{
+        width: 60%;
+        margin-bottom: 4%;
+    }
+    .contacto{
+        width: 80%;
+    }
+    #contactTitle{
+        margin-bottom: 30%;
+        margin-top: 0%;
+        font-size: 120%;
+        margin-bottom: 15%;
+        
+    }
+    .iconSubtitleMail{
+        font-size: 35%;
+        margin-top: 16%;
+    }
+}
+
