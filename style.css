@@ -57,6 +57,9 @@ nav ul a {
 
 /* Desktop */
 @media (min-width:600px){
+.camiliNav{
+    display: none;
+}
 .myPic{
     width: 30%;
 }
@@ -147,6 +150,9 @@ font-family: 'Raleway', sans-serif; */
 
 /* Mobile */
 @media (max-width: 600px) {
+    .camiliNav{
+        display: none;
+    }
     #Me{
         width: 100%;
         
@@ -279,8 +285,8 @@ font-family: 'Raleway', sans-serif; */
         margin-right: 15%;
     }
     .ProjectsTitle{
-        font-size: 80%;
-        margin-top: 1% !important;
+        font-size: 100%;
+        margin-top: 23% !important;
     }
 
 
@@ -396,7 +402,7 @@ font-family: 'Raleway', sans-serif; */
     #contactTitle{
         margin-bottom: 30%;
         margin-top: 0%;
-        font-size: 120%;
+        font-size: 100%;
         margin-bottom: 15%;
         
     }
